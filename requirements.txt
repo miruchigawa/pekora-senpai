@@ -1,3 +1,6 @@
 aiohttp
 asyncio
 discord.py
+pillow
+speedtest-cli
+animec

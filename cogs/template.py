@@ -4,7 +4,6 @@ from discord.ext import commands
 from discord.ext.commands import Context
 from discord import FFmpegPCMAudio
 from discord.ui import Select, View
-from googletrans import Translator
 from helpers import checks
 from PIL import Image, ImageChops, ImageDraw, ImageFont
 
