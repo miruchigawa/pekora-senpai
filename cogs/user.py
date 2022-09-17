@@ -21,7 +21,7 @@ def circle(pfp, size= (215, 215)):
     pfp.putalpha(mask)
     return pfp
 
-class Template(commands.Cog, name="template"):
+class User(commands.Cog, name="user"):
     def __init__(self, bot):
         self.bot = bot
 
@@ -114,4 +114,4 @@ class Template(commands.Cog, name="template"):
       
 # And then we finally add the cog to the bot so that it can load, unload, reload and use it's content.
 async def setup(bot):
-    await bot.add_cog(Template(bot))
+    await bot.add_cog(User(bot))

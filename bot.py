@@ -256,11 +256,13 @@ async def load_cogs() -> None:
 @bot.event
 async def on_member_join(member):
     channel = bot.get_channel(940091596752425003)
+    user = ctx.message.author
+    role = discord.utils.get(user.server.roles, name="Member")
     
     
     
     await channel.send(f"Konichiwa {member.mention}")
-    
+    await client.add_roles(user, role)
 
 @bot.event
 async def on_member_remove(member):

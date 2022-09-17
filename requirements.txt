@@ -4,4 +4,4 @@ discord.py
 pillow
 speedtest-cli
 animec
-FFmpeg
+ffmpeg
