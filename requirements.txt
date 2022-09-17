@@ -5,3 +5,4 @@ pillow
 speedtest-cli
 animec
 ffmpeg
+PyNaCl
