@@ -1,12 +1,13 @@
 import animec
-from animec import Anilyrics
 import discord
+from aiohttp import ClientSession
 from discord.ext import commands
 
 class Anime(commands.Cog, name="Anime"):
   
     def __init__(self, bot):
         self.bot = bot
+        
     
     @commands.hybrid_command(
         name="anime",
@@ -32,6 +33,22 @@ class Anime(commands.Cog, name="Anime"):
       embed.add_field(name= "Is Nsfw", value= str(anime.is_nsfw()))
       embed.set_thumbnail(url= anime.poster)
       await ctx.send(embed=embed)
+    
+    async def GetNsfw(self, tag):
+      async with ClientSession() as r:
+        async with r.get(f"https://api.waifu.im/random/?selected_tags={tag}") as i:
+          data = await i.json()
+      return data['images'][0]['url']
+    
+    @commands.hybrid_command(
+        name="nsfw"
+        description="Show nsfw commands"
+      )
+    
+    async def nsfw(self, ctx):
+      await.send(
+          embed=discord.Embed().set_image(url=await self.GetNsfw("uniform"))
+        )
 
 async def setup(bot):
     await bot.add_cog(Anime(bot))
