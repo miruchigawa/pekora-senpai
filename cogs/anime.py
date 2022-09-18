@@ -45,9 +45,9 @@ class Anime(commands.Cog, name="Anime"):
         description="Show nsfw commands"
       )
     
-    async def nsfw(self, ctx):
+    async def nsfw(self, ctx,*, query):
       await ctx.send(
-          embed=discord.Embed().set_image(url=await self.GetNsfw("uniform"))
+          embed=discord.Embed().set_image(url=await self.GetNsfw(f"{query}"))
         )
 
 async def setup(bot):
