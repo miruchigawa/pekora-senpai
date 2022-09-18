@@ -41,7 +41,7 @@ class Anime(commands.Cog, name="Anime"):
       return data['images'][0]['url']
     
     @commands.hybrid_command(
-        name="nsfw"
+        name="nsfw",
         description="Show nsfw commands"
       )
     
