@@ -46,7 +46,7 @@ class Anime(commands.Cog, name="Anime"):
       )
     
     async def nsfw(self, ctx):
-      await.send(
+      await ctx.send(
           embed=discord.Embed().set_image(url=await self.GetNsfw("uniform"))
         )
 
