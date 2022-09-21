@@ -56,7 +56,7 @@ class Anime(commands.Cog, name="Anime"):
       )
     
     async def quoteanime(self, ctx):
-      session = ClientSession().get('https://animechan.vercel.app/api/random')
+      session = await ClientSession().get('https://animechan.vercel.app/api/random')
       data = session.json()
       anime = data['anime']
       character = data['character']
