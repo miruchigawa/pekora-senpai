@@ -49,6 +49,22 @@ class Anime(commands.Cog, name="Anime"):
       await ctx.send(
           embed=discord.Embed().set_image(url=await self.GetNsfw(f"{query}"))
         )
+    
+    @commands.hybrid_command(
+        name="quoteanime",
+        description="Get random anime quote"
+      )
+    
+    async def quoteanime(self, ctx):
+      session = ClientSession().get('https://animechan.vercel.app/api/random')
+      data = session.json()
+      anime = data['anime']
+      character = data['character']
+      quote = data['quote']
+      embed = discord.Embed(title = anime,description= character,color = discord.Color.random())
+      embed.add_field(name= "Quote", value= quote)
+      await ctx.send(embed=embed)
+          
 
 async def setup(bot):
     await bot.add_cog(Anime(bot))
