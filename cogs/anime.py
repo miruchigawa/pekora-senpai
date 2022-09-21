@@ -2,6 +2,7 @@ import animec
 import discord
 from aiohttp import ClientSession
 from discord.ext import commands
+import requests
 
 class Anime(commands.Cog, name="Anime"):
   
@@ -56,7 +57,7 @@ class Anime(commands.Cog, name="Anime"):
       )
     
     async def quoteanime(self, ctx):
-      session = await ClientSession().get('https://animechan.vercel.app/api/random')
+      session = requests.get('https://animechan.vercel.app/api/random')
       data = session.json()
       anime = data['anime']
       character = data['character']
