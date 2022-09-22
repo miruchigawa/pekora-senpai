@@ -62,7 +62,9 @@ class Anime(commands.Cog, name="Anime"):
       anime = data['anime']
       character = data['character']
       quote = data['quote']
-      embed = discord.Embed(title = anime,description= character,color = discord.Color.random())
+      embed = discord.Embed(title = "Quote Anime",description= "Random quote anime",color = discord.Color.random())
+      embed.add_field(name= "Anime", value= anime)
+      embed.add_field(name= "Chara", value= character)
       embed.add_field(name= "Quote", value= quote)
       await ctx.send(embed=embed)
           
