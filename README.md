@@ -95,7 +95,7 @@ python bot.py
 
 ## License
 
-We use [Template](http://semver.org) for created bot, see
+We use [Template](#) for created bot, see
 the [repository](https://github.com/kkrypt0nn/Python-Discord-Bot-Template).
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE.md](LICENSE.md) file for details
