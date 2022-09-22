@@ -1,13 +1,13 @@
 # Pekora Senpai Discord Bot
 
 <p align="center">
-  <a href="//discord.gg/mTBrXyWxAF"><img src="https://img.shields.io/discord/739934735387721768?logo=discord"></a>
-  <a href="//github.com/kkrypt0nn/Python-Discord-Bot-Template/releases"><img src="https://img.shields.io/github/v/release/kkrypt0nn/Python-Discord-Bot-Template"></a>
-  <a href="//github.com/kkrypt0nn/Python-Discord-Bot-Template/commits/main"><img src="https://img.shields.io/github/last-commit/kkrypt0nn/Python-Discord-Bot-Template"></a>
-  <a href="//github.com/kkrypt0nn/Python-Discord-Bot-Template/releases"><img src="https://img.shields.io/github/downloads/kkrypt0nn/Python-Discord-Bot-Template/total"></a>
-  <a href="//github.com/kkrypt0nn/Python-Discord-Bot-Template/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/kkrypt0nn/Python-Discord-Bot-Template"></a>
-  <a href="//github.com/kkrypt0nn/Python-Discord-Bot-Template"><img src="https://img.shields.io/github/languages/code-size/kkrypt0nn/Python-Discord-Bot-Template"></a>
-  <a href="//github.com/kkrypt0nn/Python-Discord-Bot-Template/issues"><img src="https://img.shields.io/github/issues-raw/kkrypt0nn/Python-Discord-Bot-Template"></a>
+  <a href="//discord.gg/xUy6gR2n"><img src="https://img.shields.io/discord/739934735387721768?logo=discord"></a>
+  <a href="//github.com/miftahfauzanid/pekora-senpai/releases"><img src="https://img.shields.io/github/v/release/kkrypt0nn/Python-Discord-Bot-Template"></a>
+  <a href="//github.com/miftahfauzanid/pekora-senpai/commits/main"><img src="https://img.shields.io/github/last-commit/miftahfauzanid/pekora-senpai"></a>
+  <a href="//github.com/miftahfauzanid/pekora-senpai/releases"><img src="https://img.shields.io/github/downloads/miftahfauzanid/pekora-senpai/total"></a>
+  <a href="//github.com/miftahfauzanid/pekora-senpai/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/miftahfauzanid/pekora-senpai"></a>
+  <a href="//github.com/miftahfauzanid/pekora-senpai"><img src="https://img.shields.io/github/languages/code-size/miftahfauzanid/pekora-senpai"></a>
+  <a href="//github.com/miftahfauzanid/pekora-senpai/issues"><img src="https://img.shields.io/github/issues-raw/miftahfauzanid/pekora-senpai"></a>
 </p>
 
 ## Support
@@ -16,7 +16,7 @@ Before requesting support, you should know that this template requires you to ha
 Python and the library is made for advanced users. Do not use this template if you don't know the
 basics. [Here's](https://pythondiscord.com/pages/resources) a link for resources to learn python.
 
-If you need some help for something, do not hesitate to join my discord server [here](https://discord.gg/mTBrXyWxAF).
+If you need some help for something, do not hesitate to join my discord server [here](https://discord.gg/xUy6gR2n).
 
 All the updates of the template are available [here](UPDATES.md).
 
